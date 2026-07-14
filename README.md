@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=250&section=header&text=Shreyash%20Londhe&fontSize=42&fontColor=0f172a&animation=twinkling&desc=MERN%20Full%20Stack%20Developer%20%7C%20AppSec%20Engineer&descSize=18" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=300&section=header&text=Shreyash%20Londhe&fontSize=42&fontColor=0f172a&animation=twinkling&desc=MERN%20Full%20Stack%20Developer%20%7C%20AppSec%20Engineer&descSize=18" width="100%" alt="Header Banner" />
 
 <br/>
 
