@@ -1,13 +1,13 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=300&section=header&text=Shreyash%20Londhe&fontSize=42&fontColor=0f172a&animation=twinkling&desc=MERN%20Full%20Stack%20Developer%20%7C%20AppSec%20Engineer&descSize=18" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=300&section=header&text=Shreyash%20Londhe&fontSize=42&fontColor=0f172a&animation=twinkling&desc=MERN%20Full%20Stack%20Developer%20%7C%20AppSec%20%7C%20DevOps%20Engineer&descSize=18" width="100%" alt="Header Banner" />
 
 <br/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&height=50&lines=MERN+Full+Stack+Developer;Application+Security+Engineer;Building+Secure+%26+Scalable+Web+Applications;Passionate+about+AppSec+%26+Full-Stack+Dev" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&height=50&lines=MERN+Full+Stack+Developer;Application+Security+Engineer;DevOps+%2F+Cloud+Engineer;Building+Secure+%26+Scalable+Web+Applications;Automating+Secure+CI%2FCD+Pipelines" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -33,20 +33,24 @@
 ```typescript
 const developer: Developer = {
   name: "Shreyash Londhe",
-  title: "MERN Full Stack Developer / AppSec Engineer",
-  status: "Actively seeking Full Stack & AppSec opportunities",
+  title: "MERN Full Stack Developer / AppSec Engineer / DevOps Engineer",
+  status: "Actively seeking Full Stack, AppSec & DevOps opportunities",
   openTo: [
     "Full Stack Developer",
     "MERN Stack Developer",
     "AppSec Engineer",
+    "DevOps Engineer",
+    "Cloud Engineer",
     "Security Analyst"
   ],
   stack: {
     languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
     fullStack: ["MongoDB", "Express.js", "React.js", "Node.js"],
-    security: ["Kali Linux", "Burp Suite", "OWASP Top 10", "Vulnerability Assessment"]
+    security: ["Kali Linux", "Burp Suite", "OWASP Top 10", "Vulnerability Assessment"],
+    devOps: ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "ArgoCD", "Trivy", "Checkov"]
   },
   launchedProjects: [
+    "Jerney - DevSecOps 3-Tier Pipeline",
     "AuraStream Security Audit",
     "AI Portfolio Assistant"
   ]
@@ -73,11 +77,42 @@ const developer: Developer = {
 
 > **Core Security Focus:** Burp Suite (Intercept, Intruder, Repeater), OWASP Top 10 Mitigation, Web Application Penetration Testing, Secure Code Review.
 
+#### ☁️ DevOps & Cloud
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions,aws" alt="DevOps & Cloud Tools" />
+  </a>
+</p>
+
+> **Core DevOps Focus:** CI/CD Pipeline Design (GitHub Actions), Container Orchestration (Docker, Kubernetes), Infrastructure as Code (Terraform), GitOps (ArgoCD), Security Scanning (Trivy, Checkov).
+
 ---
 
 ### 🚀 Featured Projects
 
-#### 1. AuraStream Security Audit
+#### 1. Jerney - DevSecOps 3-Tier Pipeline
+End-to-end DevSecOps CI/CD pipeline for a 3-tier microservices blog platform, covering automated build, security scanning, containerization, and GitOps deployment to Kubernetes.
+
+<div align="center">
+  <a href="https://github.com/ShreyashLondhe31/DevSecOps-3Tier-Pipeline">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyashLondhe31&repo=DevSecOps-3Tier-Pipeline&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=e5e7eb" alt="Jerney DevSecOps 3-Tier Pipeline Pin Card" />
+  </a>
+</div>
+
+<br/>
+
+| Layer | Technology |
+| :--- | :--- |
+| **Architecture** | 3-Tier — Presentation (React + Vite, served via Nginx), Application (Node.js + Express REST API), Data (PostgreSQL 16) |
+| **CI/CD** | GitHub Actions |
+| **Security Scanning** | Trivy (image/filesystem scanning), Checkov (IaC scanning) |
+| **Container & Orchestration** | Docker, Kubernetes (with NetworkPolicies), ArgoCD (GitOps) |
+| **Infrastructure as Code** | Terraform (EKS provisioning) |
+| **Repository** | [ShreyashLondhe31/DevSecOps-3Tier-Pipeline](https://github.com/ShreyashLondhe31/DevSecOps-3Tier-Pipeline) |
+
+---
+
+#### 2. AuraStream Security Audit
 Comprehensive security evaluation and audit of a streaming platform architecture to identify vulnerabilities and enforce best practices.
 
 <div align="center">
@@ -96,7 +131,7 @@ Comprehensive security evaluation and audit of a streaming platform architecture
 
 ---
 
-#### 2. AI Portfolio Assistant
+#### 3. AI Portfolio Assistant
 An interactive, AI-driven assistant designed to showcase projects, answer queries, and present developer credentials dynamically.
 
 <div align="center">
